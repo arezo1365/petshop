@@ -1,0 +1,29 @@
+.project-box img{
+    transition: all 500ms;
+}
+.project-box:hover img{
+    transform: scale(1.1,1.1);
+}
+.project-box .overlay{
+    opacity: 0;
+    transition: all 500ms;
+}
+.project-box:hover .overlay{
+    opacity: 1;
+}
+.project-box .overlay > div:nth-child(1){
+   top: -900px;
+    transition: all 500ms;
+}
+.project-box:hover .overlay > div:nth-child(1){
+    top: 0;
+     transition: all 500ms;
+ }
+ .project-box .overlay > div:nth-child(2){
+    top: 900px;
+     transition: all 500ms;
+ }
+ .project-box:hover .overlay > div:nth-child(2){
+     top: 0;
+      transition: all 500ms;
+  }
